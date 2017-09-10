@@ -30,11 +30,11 @@ var juegoDulces = {
       }
     });
     this.animacionTitulo();
-    this.cargarImagenes();
   },
   iniciarJuego: function(){
     $(".btn-reinicio").html('Reiniciar');
     juegoActivo = 1;
+    this.cargarImagenes();
     this.inicioTiempo();
     this.scanRepetidosCol();
     this.scanRepetidosFil();
