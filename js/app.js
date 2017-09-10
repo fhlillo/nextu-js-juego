@@ -86,8 +86,8 @@ var juegoDulces = {
   },
   animacionTitulo: function(){
     setInterval(function(){
-      $(".main-titulo").switchClass("main-titulo","main-titulo-efecto", 200),
-      $(".main-titulo").switchClass("main-titulo-efecto","main-titulo", 200)
+      $(".main-titulo").animate({color: "#DCFF0E"}, 1000),
+      $(".main-titulo").animate({color: "#FFFFFF"}, 1000)
     }, 1000);
   },
   imagenes: function(){
